@@ -16,7 +16,7 @@ docker compose up -d          # UI at http://localhost:3000
 # In the UI: create account -> new project -> Settings -> API Keys
 
 # 2. This project
-cd ../ask-the-docs
+cd ../
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env          # paste your Langfuse + Gemini keys
