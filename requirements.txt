@@ -1,0 +1,7 @@
+langfuse>=3,<4
+openai>=1.40
+chromadb>=0.5
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-dotenv>=1.0
+pytest>=8.0

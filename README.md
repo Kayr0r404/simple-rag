@@ -26,7 +26,7 @@ uvicorn app.main:app --reload
 
 Try it:
 
-```bash 
+```bash
 curl -s localhost:8000/ask -H 'content-type: application/json' \
   -d '{"question":"How much is the Plus plan?","user_id":"alice"}'
 ```
@@ -113,5 +113,5 @@ tests/           CI regression test
 
 - Built against `langfuse>=3,<4`. SDK method names move between majors; if something errors, check the Langfuse Python SDK docs for your version.
 - Tracing flushes in the background; short scripts call `langfuse.flush()` before exiting.
-# simple-rag
+
 # simple-rag

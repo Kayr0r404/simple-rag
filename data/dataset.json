@@ -1,0 +1,127 @@
+[
+  {
+    "question": "How much does the Plus plan cost?",
+    "expected": {
+      "keywords": [
+        "R4"
+      ]
+    }
+  },
+  {
+    "question": "How many notes can I have on the Free plan?",
+    "expected": {
+      "keywords": [
+        "100"
+      ]
+    }
+  },
+  {
+    "question": "How often does sync run by default?",
+    "expected": {
+      "keywords": [
+        "30 seconds"
+      ]
+    }
+  },
+  {
+    "question": "How do I change the sync interval?",
+    "expected": {
+      "keywords": [
+        "sync.interval"
+      ]
+    }
+  },
+  {
+    "question": "What happens when two devices edit the same note?",
+    "expected": {
+      "keywords": [
+        "last-write-wins",
+        ".conflicts"
+      ]
+    }
+  },
+  {
+    "question": "Which encryption does Pebble use?",
+    "expected": {
+      "keywords": [
+        "XChaCha20"
+      ]
+    }
+  },
+  {
+    "question": "How do I install Pebble with pipx?",
+    "expected": {
+      "keywords": [
+        "pipx install pebble-cli"
+      ]
+    }
+  },
+  {
+    "question": "What export formats are supported?",
+    "expected": {
+      "keywords": [
+        "md",
+        "pdf",
+        "json"
+      ]
+    }
+  },
+  {
+    "question": "What is the maximum note size?",
+    "expected": {
+      "keywords": [
+        "1 MB"
+      ]
+    }
+  },
+  {
+    "question": "How large can attachments be on the Team plan?",
+    "expected": {
+      "keywords": [
+        "100 MB"
+      ]
+    }
+  },
+  {
+    "question": "How long do deleted notes stay in the trash?",
+    "expected": {
+      "keywords": [
+        "30 days"
+      ]
+    }
+  },
+  {
+    "question": "What is the API rate limit?",
+    "expected": {
+      "keywords": [
+        "60"
+      ]
+    }
+  },
+  {
+    "question": "What is the minimum number of seats for the Team plan?",
+    "expected": {
+      "keywords": [
+        "3"
+      ]
+    }
+  },
+  {
+    "question": "Does Pebble have an iOS app?",
+    "expected": {
+      "answerable": false
+    }
+  },
+  {
+    "question": "How much does the Enterprise plan cost?",
+    "expected": {
+      "answerable": false
+    }
+  },
+  {
+    "question": "Can Pebble integrate with Notion?",
+    "expected": {
+      "answerable": false
+    }
+  }
+]
